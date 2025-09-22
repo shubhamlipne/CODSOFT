@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, input, button {
+  font-family: 'Segoe UI', sans-serif;
+}
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #005bea, #00c6fb);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero .btn {
+  padding: 12px 30px;
+  background: white;
+  color: #005bea;
+  border: none;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.hero .btn:hover {
+  background: #e1e1e1;
+}
+
+/* Features */
+.features h2, .syllabus h2, .testimonials h2, .faq h2, .contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+/* Syllabus */
+.syllabus ul {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+/* Testimonials */
+.testimonials {
+  background: #f0f8ff;
+  text-align: center;
+}
+.testimonial {
+  max-width: 600px;
+  margin: auto;
+  font-style: italic;
+}
+.testimonial h4 {
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* FAQ */
+.faq-item {
+  margin-bottom: 15px;
+}
+.faq-item h3 {
+  cursor: pointer;
+  background: #eee;
+  padding: 10px;
+  border-radius: 4px;
+}
+.answer {
+  display: none;
+  padding: 10px;
+  background: #f9f9f9;
+  border-left: 3px solid #007BFF;
+}
+
+/* Contact */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+.contact input, .contact button {
+  padding: 10px;
+  font-size: 16px;
+}
+.contact button {
+  background: #005bea;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.contact button:hover {
+  background: #0040c1;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 20px;
+}
