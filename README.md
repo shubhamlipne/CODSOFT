@@ -1,7 +1,7 @@
-# 💼 CodSoft Internship Projects
+#basic frontend web Projects
 
 Welcome to my **CodSoft Web Development Internship** repository! 🚀  
-This repository contains the projects I completed as part of my internship, showcasing my frontend development skills using **HTML, CSS, and JavaScript**.
+This repository contains the projects I completed as for showcasing my frontend development skills using **HTML, CSS, and JavaScript**.
 
 ---
 
